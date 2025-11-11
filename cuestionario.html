@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="assets/css/style_cuestionario.css" />
+</head>
+
+<body style="background-color: #4d4d4d">
+    <div class="container text-center">
+        <h1>Cuestionario - Los Simpsons</h1>
+    </div>
+    <div class="preguntas">
+        <input type="text" name="nombre" id="Nombree" placeholder="Introduzca su nombre" />
+        <fieldset>
+            <legend>1- ¿Cuál es el nombre completo de Homero?</legend>
+            <label><input type="radio" name="q1" value="errroneo" /> Homero J. Simpson</label>
+            <label><input type="radio" name="q1" value="correcto" data-correcto="true" /> Homero Jay Simpson</label>
+            <label><input type="radio" name="q1" value="errroneo" /> Homero James Simpson</label>
+            <label><input type="radio" name="q1" value="errroneo" /> Ninguna de las anteriores</label>
+        </fieldset>
+        <fieldset>
+            <legend>2- ¿Cómo se llama el bar de Moe?</legend>
+            <label><input type="radio" name="q2" value="errroneo" /> La Taberna de Moe</label>
+            <label><input type="radio" name="q2" value="errroneo" /> El Bar de Moe</label>
+            <label><input type="radio" name="q2" value="correcto" data-correcto="true" /> Moe's Tavern</label>
+            <label><input type="radio" name="q2" value="errroneo" /> Duff Bar</label>
+        </fieldset>
+        <fieldset>
+            <legend>3- ¿Cuál es el segundo nombre de Bart?</legend>
+            <label><input type="radio" name="q3" value="correcto" data-correcto="true" /> Bartholomew JoJo Simpson</label>
+            <label><input type="radio" name="q3" value="errroneo" /> Bartholomew Jay Simpson</label>
+            <label><input type="radio" name="q3" value="errroneo" /> Bart J. Simpson</label>
+            <label><input type="radio" name="q3" value="errroneo" /> Bartholomew James Simpson</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>4- ¿Cómo se llama la hermana gemela de Patty?</legend>
+            <label><input type="radio" name="q4" value="correcto" data-correcto="true" /> Selma Bouvier</label>
+            <label><input type="radio" name="q4" value="errroneo" /> Marge Bouvier</label>
+            <label><input type="radio" name="q4" value="errroneo" /> Jacqueline Bouvier</label>
+            <label><input type="radio" name="q4" value="errroneo" /> Edna Bouvier</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>5- ¿Cuál es el nombre completo del Sr. Burns?</legend>
+            <label><input type="radio" name="q5" value="correcto" data-correcto="true" /> Charles Montgomery Burns</label>
+            <label><input type="radio" name="q5" value="errroneo" /> Charles Monty Burns</label>
+            <label><input type="radio" name="q5" value="errroneo" /> Montgomery Charles Burns</label>
+            <label><input type="radio" name="q5" value="errroneo" /> Monty Montgomery Burns</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>6- ¿Qué instrumento toca Lisa?</legend>
+            <label><input type="radio" name="q6" value="errroneo" /> Clarinete</label>
+            <label><input type="radio" name="q6" value="correcto" data-correcto="true" /> Saxofón</label>
+            <label><input type="radio" name="q6" value="errroneo" /> Trompeta</label>
+            <label><input type="radio" name="q6" value="errroneo" /> Flauta</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>7- ¿Cómo se llama el payaso famoso de la serie?</legend>
+            <label><input type="radio" name="q7" value="correcto" data-correcto="true" /> Krusty el Payaso</label>
+            <label><input type="radio" name="q7" value="errroneo" /> Rusty el Payaso</label>
+            <label><input type="radio" name="q7" value="errroneo" /> Crusty el Payaso</label>
+            <label><input type="radio" name="q7" value="errroneo" /> Krusty McClown</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>8- ¿Qué bebida suele tomar Homero en el bar?</legend>
+            <label><input type="radio" name="q8" value="errroneo" /> Cerveza Doff</label>
+            <label><input type="radio" name="q8" value="correcto" data-correcto="true" /> Cerveza Duff</label>
+            <label><input type="radio" name="q8" value="errroneo" /> Cerveza Buff</label>
+            <label><input type="radio" name="q8" value="errroneo" /> Cerveza Daff</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>9- ¿Cuál es el nombre del director de la escuela?</legend>
+            <label><input type="radio" name="q9" value="correcto" data-correcto="true" /> Seymour Skinner</label>
+            <label><input type="radio" name="q9" value="errroneo" /> Armin Tamzarian</label>
+            <label><input type="radio" name="q9" value="errroneo" /> Edna Krabappel</label>
+            <label><input type="radio" name="q9" value="errroneo" /> Gary Chalmers</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                10- ¿Qué número tiene el apartamento de Kirk Van Houten después de
+                divorciarse?
+            </legend>
+            <label><input type="radio" name="q10" value="errroneo" /> 2F03</label>
+            <label><input type="radio" name="q10" value="correcto" data-correcto="true" /> 3B</label>
+            <label><input type="radio" name="q10" value="errroneo" /> 5E</label>
+            <label><input type="radio" name="q10" value="errroneo" /> No se menciona en la serie</label>
+        </fieldset>
+            <button id="btnEnviar">ENVIAR</button>
+    </div>
+
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>

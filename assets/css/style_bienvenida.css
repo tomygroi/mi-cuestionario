@@ -1,0 +1,36 @@
+@import url("root.css");
+
+div h1{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+div button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div button:hover{
+    background-color: #0056b3;
+}
+
+div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
